@@ -79,7 +79,7 @@ const config = {
           {
             label: 'C++',
             position: 'left',
-            to: '/blog/2023-05-10-NewWebSite',
+            to: '/blog',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
