@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://blog.ljy-lu.space',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -132,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © 2021 - ${new Date().getFullYear()} LJY_LU, 已运行${Math.floor((new Date().getTime() - new Date(2021,10,31).getTime())/(24 * 3600 * 1000))}. Built with Docusaurus.`,
+        copyright: `Copyright © 2021 - ${new Date().getFullYear()} LJY_LU, 已运行${Math.floor((new Date().getTime() - new Date(2021,10,31).getTime())/(24 * 3600 * 1000))}天. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
