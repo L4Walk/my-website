@@ -132,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © 2021 - ${new Date().getFullYear()} LJY_LU, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © 2021 - ${new Date().getFullYear()} LJY_LU, 已运行${Math.floor((new Date().getTime() - new Date(2021,10,31).getTime())/(24 * 3600 * 1000))}. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
